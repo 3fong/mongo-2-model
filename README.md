@@ -76,3 +76,8 @@ public class {{className}} {
 ```
 
 服务运行.输出文本字符串
+
+
+### 参考资料
+
+[jinjava使用](https://github.com/HubSpot/jinjava)
