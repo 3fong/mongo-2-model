@@ -2,7 +2,7 @@
 
 #### 前置准备
 
-按照mongodb    
+安装mongodb    
 引入jinjava依赖
 
 #### 进行
