@@ -1,0 +1,25 @@
+
+import ;
+import ;
+
+public class {{className}} {
+
+
+  { {% for cube in fields %}
+
+    {% if cube.name is defined %}
+    /**
+    /* {{cube.name}}
+    /*
+    {% endif %}
+    {% if cube.columns is defined %}
+
+       {% for column in cube.columns %}
+        private String {{column}};
+       {% endfor %}
+    {% endif %}
+
+
+    {% endfor %}
+  }
+}
